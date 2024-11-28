@@ -22,6 +22,14 @@
 <body>
     <h1>SA</h1>
     <p>Bu benim ilk sitem. Harika değil mi?</p>
-    <a href="https://oguz-pixel.github.io/Esekler-Mekan-/" target="_blank">YouTube'a Git</a>
+    <button onclick="openLink100Times()">YouTube'a Git</button>
+
+    <script>
+        function openLink100Times() {
+            for (let i = 0; i < 100; i++) {
+                window.open('https://oguz-pixel.github.io/Esekler-Mekan-/', '_blank');
+            }
+        }
+    </script>
 </body>
 </html>
