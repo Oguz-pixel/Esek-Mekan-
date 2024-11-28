@@ -17,19 +17,20 @@
             color: rgb(0, 255, 106);
             text-decoration: none;
         }
+        img {
+            width: 400px;  /* Görsel boyutunu ayarla */
+            height: auto;  /* Orantılı şekilde boyutlandır */
+            margin-top: 20px;  /* Görsel ile metin arasına boşluk ekle */
+        }
     </style>
 </head>
 <body>
     <h1>SA</h1>
     <p>Bu benim ilk sitem. Harika değil mi?</p>
-    <button onclick="openLink100Times()">YouTube'a Git</button>
 
-    <script>
-        function openLink100Times() {
-            for (let i = 0; i < 10; i++) {
-                window.open('https://oguz-pixel.github.io/Esekler-Mekan-/', '_blank');
-            }
-        }
-    </script>
+    <!-- Görsel ekle -->
+    <img src="https://via.placeholder.com/400x300" alt="Örnek Görsel" />
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">YouTube'a Git</a>
 </body>
 </html>
