@@ -8,28 +8,69 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin-top: 300px;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Sayfanın tamamını kapsaması için */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000; /* Arka plan rengi */
         }
+
+        /* Başlık (h1) konumu */
         h1 {
-            color: #0044ff;
+            color: #666666;
+            margin-top: 50px; /* Başlık ile üst arasına boşluk */
+            position: relative;
+            top: -50px; /* Sayfanın üst kısmına yakın */
         }
+
+        /* Paragraf (p) konumu */
+        p {
+            color: #797979;
+            font-size: 20px;
+            margin-top: 20px;
+            position: relative;
+            top: -30px; /* Başlık ve paragraf arasına boşluk bırakmak için */
+        }
+
+         /* Paragraf (p) konumu */
+        p2 {
+            color: #0004ff;
+            font-size: 50px;
+            margin-top: 20px;
+            position: relative;
+            top: -30px; /* Başlık ve paragraf arasına boşluk bırakmak için */
+        }
+
+        /* Görsel (img) konumu */
+        img {
+            width: 400px;  /* Görsel boyutunu ayarla */
+            height: 250px;  /* Orantılı şekilde boyutlandır */
+            margin-top: 20px;
+            position: relative;
+            top: -10px; /* Görselin yukarı kaymasını engellemek için */
+        }
+
+        /* Bağlantı (a) konumu */
         a {
             color: rgb(0, 255, 106);
             text-decoration: none;
-        }
-        img {
-            width: 400px;  /* Görsel boyutunu ayarla */
-            height: auto;  /* Orantılı şekilde boyutlandır */
-            margin-top: 20px;  /* Görsel ile metin arasına boşluk ekle */
+            font-size: 50px;
+            margin-top: 0px;
+            position: relative;
+            bottom: 170px; /* Bağlantıyı biraz aşağıya kaydır */
         }
     </style>
 </head>
 <body>
     <h1>SA</h1>
     <p>Bu benim ilk sitem. Harika değil mi?</p>
+    <p2>Eşşekler Mekanına Hoşgeldiz!</p2>
 
     <!-- Görsel ekle -->
-    <img src="https://via.placeholder.com/400x300" alt="Örnek Görsel" />
+    <img src="file:///C:/Users/ercan/OneDrive/Masaüstü/download.jpg" alt="Masaüstündeki Görsel">
 
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">YouTube'a Git</a>
 </body>
